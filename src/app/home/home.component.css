@@ -1,0 +1,11 @@
+.content{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding:6px 20px;
+    cursor: pointer;
+}
