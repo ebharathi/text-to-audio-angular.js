@@ -2,10 +2,10 @@
     <app-navbar></app-navbar>
     <div class="content">
             <div>
-                <textarea type="text" placeholder="Enter the Text you want to convert into audio" rows="20" cols="60"></textarea>
+                <textarea type="text" #inp  placeholder="Enter the Text you want to convert into audio" rows="20" cols="60"></textarea>
             </div>
             <div>
-                <button>Generate</button>
+                <button (click)="onSubmit(inp.value)">{{btn}}</button>
             </div>
     </div>
 </div>
