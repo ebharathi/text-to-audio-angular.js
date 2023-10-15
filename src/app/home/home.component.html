@@ -7,5 +7,14 @@
             <div>
                 <button (click)="onSubmit(inp.value)">{{btn}}</button>
             </div>
+            <br/>
+            <br/>
+            <ng-container *ngIf="Download!==''">
+                <button>
+                <a href={{downloadLink}}>
+                    {{Download}}
+                </a>
+                </button>
+            </ng-container>
     </div>
 </div>
