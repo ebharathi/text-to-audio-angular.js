@@ -30,6 +30,7 @@ export class HomeComponent {
         if(statusResponse.status=="success")
         {
           this.Download="Download";
+          this.btn="Genarate";
           this.downloadLink=statusResponse?.url;
           clearInterval(this.intervalId);
         }
